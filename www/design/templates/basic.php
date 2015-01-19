@@ -12,47 +12,165 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">Whart-timesheet</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+              <li class="active"><a href="./">Login <span class="sr-only">(current)</span></a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
+    <DIV CLASS="row">
+	<div class="col-md-3" id="day1">
+	  <div class="col-md-12 text-center">
+		<span class="glyphicon glyphicon-calendar"></span><SMALL> 19 января 2015</br>вторник</SMALL>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Ящак</strong>
+			</br>Андрей
+			</br>Степанович
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 6</span></br>09:00</br>15:00
+		</DIV>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Короленко</strong>
+			</br>Елизавета
+			</br>Сергеевна
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 5</span></br>15:00</br>20:00
+		</DIV>
+	  </div>
+	</div>
+	<div class="col-md-3" id="day2">
+	  <div class="col-md-12 text-center">
+		<span class="glyphicon glyphicon-calendar"></span><SMALL> 19 января 2015</br>вторник</SMALL>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Ящак</strong>
+			</br>Андрей
+			</br>Степанович
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 6</span></br>09:00</br>15:00
+		</DIV>
+	  </div>
+	</div>
+	<div class="col-md-3" id="day3">
+	  <div class="col-md-12 text-center">
+		<span class="glyphicon glyphicon-calendar"></span><SMALL> 19 января 2015</br>вторник</SMALL>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Ящак</strong>
+			</br>Андрей
+			</br>Степанович
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 6</span></br>09:00</br>15:00
+		</DIV>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Короленко</strong>
+			</br>Елизавета
+			</br>Сергеевна
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 5</span></br>15:00</br>20:00
+		</DIV>
+	  </div>
+	</div>
+	<div class="col-md-3" id="day4">
+	  <div class="col-md-12 text-center">
+		<span class="glyphicon glyphicon-calendar"></span><SMALL> 19 января 2015</br>вторник</SMALL>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Короленко</strong>
+			</br>Елизавета
+			</br>Сергеевна
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 5</span></br>15:00</br>20:00
+		</DIV>
+	  </div>
+	</div>
+	</div>
+	<DIV CLASS="row">
+	<div class="col-md-3" id="day5">
+	  <div class="col-md-12 text-center">
+		<span class="glyphicon glyphicon-calendar"></span><SMALL> 19 января 2015</br>вторник</SMALL>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Ящак</strong>
+			</br>Андрей
+			</br>Степанович
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 6</span></br>09:00</br>15:00
+		</DIV>
+	  </div>
+	</div>
+	
+	<div id="day6" class="col-md-3">
+	  <div class="col-md-12 text-center">
+		<span class="glyphicon glyphicon-calendar"></span><SMALL> 19 января 2015</br>вторник</SMALL>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Ящак</strong>
+			</br>Андрей
+			</br>Степанович
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 6</span></br>09:00</br>15:00
+		</DIV>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Короленко</strong>
+			</br>Елизавета
+			</br>Сергеевна
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 5</span></br>15:00</br>20:00
+		</DIV>
+	  </div>
+	</div>
+	
+	
+	<div class="col-md-3" id="day7">
+	  <div class="col-md-12 text-center">
+		<span class="glyphicon glyphicon-calendar"></span><SMALL> 19 января 2015</br>вторник</SMALL>
+	  </div>
+	  <div class="col-md-12 well">
+	  <div class="col-md-6 text-center">
+			<strong>Короленко</strong>
+			</br>Елизавета
+			</br>Сергеевна
+		</div>
+		<div class="col-md-6 text-center "><span CLASS="badge"><span class="glyphicon glyphicon-time"></span> 5</span></br>15:00</br>20:00
+		</DIV>
+	  </div>
+	</div>
+	
+	</div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>
+	$(function(){
+    $('div [id=^day]').hover(function(){
+        this.toggleClass('well');
+                    });
+});
 
-    </div> <!-- /container -->
-
-
+	
+	</script>
+	</div> <!-- /container -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
