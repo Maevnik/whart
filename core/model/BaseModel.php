@@ -3,9 +3,9 @@ class BaseModel
 {
     private $db_table;
     private $db_host='localhost';
-    private $db_username='host1354893_whar';
-    private $db_password='ckexfqyjcnm';
-    private $db_base='host1354893_whart';
+    private $db_username='xxx';
+    private $db_password='xxx';
+    private $db_base='xxx';
     private $db;
     function json_encode_cyr($str) 
 	{
