@@ -48,8 +48,9 @@ class BaseModel
     public function View($var)
     {   $this->ConnectToBase();  
         $query =mysql_query('SELECT * FROM users') or die(mysql_error());
-        while ($row = mysql_fetch_assoc($query);)
-        echo $query['user_id'];
-        
+        while ($row = mysql_fetch_assoc($query))
+        {        
+            echo $row['user_id'].'</br>';echo $row['login'].'</br>';
+        }
     }
 }
