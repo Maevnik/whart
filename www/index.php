@@ -1,6 +1,14 @@
 <?php
-header('Content-Type: text/html; charset=utf-8');
-include("/design/templates/header.php");
-include("/design/templates/basic.php");
-include("/design/templates/footer.php");
-?>
+/**
+ * Example Application
+ *
+ * @package Example-application
+ *//* 
+require './Smarty/libs/Smarty.class.php';
+require './dev/init.class.php'; */
+include_once("./dev/model/UserModel.php");
+include_once("./dev/model/MainModel.php");
+
+$user = new UserModel();
+$user ->Get_by_ID(114); 
+echo $user->login;
