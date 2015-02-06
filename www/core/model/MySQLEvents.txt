@@ -1,0 +1,75 @@
+2015-02-06 17:39:26 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:39:26 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"1\",\"login\":\"admin\",\"password\":\"admin\"}"}
+2015-02-06 17:39:27 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:39:27 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `shedules` WHERE `user_id`=? LIMIT 1"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"shedule_start\":\"2015-01-26 08:00:00\",\"shedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:39:27 IP 127.0.0.1 Write - "success"
+2015-02-06 17:40:40 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:40:40 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"1\",\"login\":\"admin\",\"password\":\"admin\"}"}
+2015-02-06 17:40:41 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:40:41 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `shedules` WHERE `user_id`=? LIMIT 1"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"shedule_start\":\"2015-01-26 08:00:00\",\"shedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:40:41 IP 127.0.0.1 Write - "success"
+2015-02-06 17:41:14 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:41:14 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `shedules` WHERE `user_id`=? LIMIT 1"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"shedule_start\":\"2015-01-26 08:00:00\",\"shedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:41:14 IP 127.0.0.1 Write - "success"
+2015-02-06 17:41:42 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:41:42 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `shedules` WHERE `user_id`=? LIMIT 1"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"shedule_start\":\"2015-01-26 08:00:00\",\"shedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:41:42 IP 127.0.0.1 Write - "success"
+2015-02-06 17:42:19 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:42:27 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:42:27 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `shedules` WHERE `shedule_id`=?"},"Result":"false"}
+2015-02-06 17:42:27 IP 127.0.0.1 Write - "success"
+2015-02-06 17:44:10 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:44:10 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `shedules` WHERE `shedule_id`=:id"},"Result":"false"}
+2015-02-06 17:44:10 IP 127.0.0.1 Write - "success"
+2015-02-06 17:46:22 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:46:22 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"false"}
+2015-02-06 17:46:48 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:46:48 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"false"}
+2015-02-06 17:46:50 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:46:50 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"false"}
+2015-02-06 17:47:45 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:47:45 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"false"}
+2015-02-06 17:48:03 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:48:03 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"false"}
+2015-02-06 17:48:33 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:48:33 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"false"}
+2015-02-06 17:52:03 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:52:03 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"schedule_start\":\"2015-01-26 08:00:00\",\"schedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:52:27 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:52:27 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"schedule_start\":\"2015-01-26 08:00:00\",\"schedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:52:53 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:52:53 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"schedule_start\":\"2015-01-26 08:00:00\",\"schedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:53:52 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:53:52 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"schedule_start\":\"2015-01-26 08:00:00\",\"schedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:54:19 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:54:19 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"schedule_start\":\"2015-01-26 08:00:00\",\"schedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:54:42 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:54:42 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"schedule_start\":\"2015-01-26 08:00:00\",\"schedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:55:23 IP 127.0.0.1 Connection - "success"
+2015-02-06 17:55:23 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `schedules` WHERE `schedule_id`=:id"},"Result":"{\"schedule_id\":\"1\",\"user_id\":\"1\",\"group_id\":\"1\",\"schedule_start\":\"2015-01-26 08:00:00\",\"schedule_end\":\"2015-01-26 22:00:00\"}"}
+2015-02-06 17:55:23 IP 127.0.0.1 Write - "success"
+2015-02-06 18:59:34 IP 127.0.0.1 Connection - "success"
+2015-02-06 18:59:55 IP 127.0.0.1 Connection - "success"
+2015-02-06 18:59:55 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:01:27 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:01:27 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:02:09 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:02:09 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:02:29 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:02:29 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:03:25 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:03:25 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:03:57 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:03:57 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:04:28 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:04:28 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:04:38 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:04:38 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:04:53 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:04:53 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:05:10 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:05:10 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:05:11 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:05:11 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 19:05:20 IP 127.0.0.1 Connection - "success"
+2015-02-06 19:05:20 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
