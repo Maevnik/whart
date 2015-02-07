@@ -73,3 +73,7 @@
 2015-02-06 19:05:11 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
 2015-02-06 19:05:20 IP 127.0.0.1 Connection - "success"
 2015-02-06 19:05:20 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 22:56:46 IP 127.0.0.1 Connection - "success"
+2015-02-06 22:56:46 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
+2015-02-06 22:56:47 IP 127.0.0.1 Connection - "success"
+2015-02-06 22:56:48 IP 127.0.0.1 Reading - {"Query":{"queryString":"SELECT * FROM `users` WHERE `user_id`=?"},"Result":"{\"user_id\":\"3\",\"login\":\"user\",\"password\":\"user\"}"}
